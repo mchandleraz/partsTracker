@@ -55,7 +55,7 @@
     "beforeOpeningCurlyBrace": true
   },
   "requireSpacesInsideObjectBrackets": "all",
-  "validateIndentation": 4,
+  "validateIndentation": 1,
   "validateParameterSeparator": ", ",
   "validateQuoteMarks": "'"
 }
