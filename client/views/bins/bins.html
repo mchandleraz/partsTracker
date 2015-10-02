@@ -1,3 +1,14 @@
 <div>
-  {{ vm.name }}
+	<table id="bins" ng-repeat="bin in vm.bins">
+		<thead>
+			<tr>
+				<th>Description</th>
+				<th>Value</th>
+			</tr>
+		</thead>
+		<tr ng-repeat="item in bin.contents">
+			<td>{{item.description}}</td>
+			<td>{{item.value}}</td>
+		</tr>
+	</table>
 </div>

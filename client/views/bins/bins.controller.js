@@ -1,12 +1,26 @@
 'use strict';
 
 angular.module('partsTracker')
-  .controller('BinsCtrl', function () {
+	.controller('BinsCtrl', function () {
 
-    var vm = this;
+		var vm = this;
 
-    angular.extend(vm, {
-      name: 'BinsCtrl'
-    });
+		angular.extend(vm, {
+			bins: [
+				{
+					id: 'A',
+					contents: [
+						{
+							description: 'Sporty gas tank',
+							value: 10
+						}
+					]
+				},
+				{
+					id: 'B',
+					contents: []
+				}
+			]
+		});
 
-  });
+	});
