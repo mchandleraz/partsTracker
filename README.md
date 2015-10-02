@@ -3,5 +3,6 @@
 # Simple MEAN app for managing my collection(hoard) of motorcycle parts.
 
 Do these:
-`npm install`
-`party`
+`npm install
+\n
+party`
