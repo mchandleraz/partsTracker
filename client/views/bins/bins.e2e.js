@@ -7,7 +7,7 @@ describe('bins route', function () {
   });
 
   it('should have a list of bins', function () {
-    expect(element.all(by.id('bins'))).toBe('BinsCtrl');
+    expect(element(by.id('bins')).isPresent()).toBe(true);
   });
 
 });
