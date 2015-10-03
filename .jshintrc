@@ -10,6 +10,5 @@
   "nonbsp": true,
   "nonew": false,
   "strict": true,
-  "undef": true,
   "unused": true
 }
