@@ -1,3 +1,16 @@
 /**
  * bins.scss
  */
+.bin {
+	text-align: left;
+	margin-bottom: 3em;
+}
+.item--desc {
+	width: 80%;
+	text-align: left;
+}
+
+.item--val {
+	width: 15%;
+	text-align: right;
+}

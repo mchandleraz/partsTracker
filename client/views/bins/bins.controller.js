@@ -18,7 +18,8 @@ angular.module('partsTracker')
 				},
 				{
 					id: 'B',
-					contents: []
+					contents: [
+					]
 				}
 			]
 		});
